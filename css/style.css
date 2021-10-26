@@ -1,0 +1,149 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ .nav-wrapper{
+  padding:0 50px;
+ } 
+
+ body{
+font-family: 'Open Sans', sans-serif;
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: #ef5350;
+}
+
+nav ul a,
+nav .brand-logo {
+font-family: 'Caveat', corsivo;
+}
+
+.brand-logo:hover {
+  color: #3D5467;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+  .header {
+    margin-top: 10%;
+  }
+
+  .header-subtitle {
+    margin-top: 5%;
+    font-size: 1.3em;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+   .nav-wrapper{
+  padding:0 10px;
+  }
+
+  .parallax-container {
+    height: 100%;
+    width: 100%;
+  }
+
+  .immagini {
+    height: 100%;
+    width: 100%;
+  }
+
+  .brand-logo {
+    padding: 30px;
+    width: 60%;
+
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+.col-chisono {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#chisono h5 {
+  font-sze: 1.3em;
+  line-height: 1.6em;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.competenze-titolo {
+  margin-top: 60px;
+}
+
+#competenze h5 {
+  font-size: 1.3em;
+  line-height: 1.6em;
+}
+
+img {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+footer.page-footer {
+  margin: 0
+  background-color: #3D5467;
+}
+
+.fa-instagram {
+   color: white;
+   padding: 10px;
+}
+
+.fa-instagram:hover {
+  color: #EF3550;
+}
+
+.fa-google {
+  color: white;
+  padding: 10px;
+}
+
+.fa-google:hover {
+  color: #EF3550;
+}
+
+.sidenav-trigger {
+  color: #EF3550;
+}
