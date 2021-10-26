@@ -21,6 +21,8 @@
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<!--sumome-->
+<script async>(function(s,u,m,o,j,v){j=u.createElement(m);v=u.getElementsByTagName(m)[0];j.async=1;j.src=o;j.dataset.sumoSiteId='4633b96b597a38746a5af6ae81aad5576260ad6f425b04c1b12e4f6314c7093d';v.parentNode.insertBefore(j,v)})(window,document,'script','//load.sumo.com/');</script>
 
 </head>
 <body>
@@ -37,14 +39,15 @@
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contatti">Contattami</a></li>
         </ul>
+      </div>
+    </nav>
+
         <ul class="sidenav" id="mobile-demo">
           <li><a href="#chisono">Chi Sono</a></li>
           <li><a href="#competenze">Competenze</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contatti">Contattami</a></li>
         </ul>
-      </div>
-    </nav>
   </div>
 
   <div id="index-banner" class="parallax-container">
@@ -75,7 +78,7 @@
         <div class="row">
           <div class="col s12">
           <img src="foto.jpg" width="100px" align="top">
-          <h5 class="red-text text-lighten-1 light">chi sono</h5>
+          <h5 class="red-text text-lighten-1 light">Chi sono</h5>
         </h5 class= "light"> Ho conseguito il diploma presso l'istituto Bodoni Paravia di Torino nel 2021.
         <br>
         Questo percorso mi ha permesso di studiare in modo appronfondito la grafica, la comunicazione, la fotografia e la cinematografia, occupandomi di ogni singolo progetto dalla sua ideazione fino alla sua realizzazione effettiva.
@@ -206,5 +209,17 @@
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
   </body>
 </html>
