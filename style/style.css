@@ -1,0 +1,217 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::after
+*::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	list-style: none;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 1140px;
+	margin: auto;
+	width: calc(100% - 48px);
+}
+
+.flex-container {
+	display: flex;
+}
+
+.align-center{
+	align-items: center;
+}
+
+.justify-content {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+#navbar {
+	background-color: #8DAA9D;
+	width: 100%;
+	height: 72px;
+	position: fixed;
+	position: relative;
+}
+
+#nav-list li {
+	padding: 10px 16px;
+	border-radius: 16px;
+	color: #0F0E0E;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.active-link:hover {
+	background-color: #7EA090;
+}
+
+.logo {
+	width: 150px;
+}
+
+#img-container {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	flex-grow: 1;
+	flex-shrink: 0;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.img {
+	width: 100%;
+}
+
+#search-nav input {
+	max-width: 367px;
+	margin-right:50px;
+	height: 25px;
+	border-radius: 16px;
+	background-color: lightgray;
+	border: none;
+	padding-left: 30px;
+	outline: none;
+	font-size: 16px;
+	color: black;
+}
+
+.contenuto {
+	margin-bottom: 50px;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	width: calc(100% - 60px);
+	text-align: justify;
+	line-height: 1.4;
+	letter-spacing: 0.06rem;
+}
+
+#fotoprofilo {
+	width: 100px;
+	float: left;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+#competenze {
+	color: #7EA090;
+}
+
+#chisono {
+	color: #7EA090;
+}
+
+.icons{
+	gap: 30px;
+	font-size: 30px;
+}
+
+#instagram {
+	color: white;
+}
+
+#instagram:hover {
+	background-color: #7EA090;
+	border-radius: 16px;
+}
+
+#envelope {
+	color: white;
+}
+
+#envelope:hover {
+	background-color: #7EA090;
+	border-radius: 16px;
+}
+
+footer {
+	background-color: #8DAA9D;
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+
+footer .copyright {
+	padding-top: 10px;
+	font: 12px;
+	color: gray;
+	background-color: #8DAA9D;
+}
+
+#illustrator {
+	color: #f27d1f;
+	font-size: 100px;
+}
+
+#photoshop {
+	color: #44c0f0;
+	font-size: 100px;
+}
+
+#premiere {
+	color: #b983ba;
+	font-size: 100px;
+}
+
+#aftereffects {
+	color: white;
+	background-color: #c7a6d1;
+	font-size: 100px;
+	border-radius: 15px;
+	border: 10px solid #c7a6d1;
+}
+
+#indesign {
+	color: #ed458a;
+	font-size: 100px;
+}
+
+.img-portfolio1 {
+	width: 500px;
+	float: left;
+	padding-right: 15px;
+}
+
+.img-portfolio2 {
+	width: 500px;
+	float: right;
+	padding-left: 15px;
+}
+
+@media only sceen and (max-width: 1192px){
+
+}
+
+@media only sceen and (max-width: 768px){
+	
+}
+
+@media only sceen and (max-width: 580px){
+
+}
+
+@media only sceen and (max-width: 460px){
+}
