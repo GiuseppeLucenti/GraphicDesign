@@ -1,10 +1,11 @@
  <!DOCTYPE html>
   <html>
     <head>
-      <meta name="viewport" content="width+device-width, initial-scale-1.0">
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
       <title>Giuseppe Lucenti | Graphic Designer</title>
+
+      <script src="./style/script.js"></script>
 
   <!-- CSS  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -35,33 +36,36 @@
     </head>
 
     <body>
-
       <!--NAVBAR-->
       <header id="header">
-        <nav id="navbar" class="flex-container">
-          <div class="container">
-            <div class="flex-container align-center space-between">
-              <div>
-                <img class="logo" src="logo.png">
-              </div>
-              <ul id="nav-list" class="flex-container">
-                <li class="active-link"><a href="index.html">Home</a></li>
-                <li class="active-link"><a href="competenze.html">Competenze</a></li>
-                <li class="active-link"><a href="portfolio.html">Portfolio</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
         <!--IMG-CONTAINER-->
-        <div id="claim" class=" align-center">
-          <div id="img-container">
-            <img  
-            class="img" 
-            src="background1.jpg" >
-          </div>
+        <div class="img-container">
+         <div class="background1">
+         
+        <div id="menu">
+          <img src="logo.png" id="logo">
+          
+              <div id="sezioni">
+                <a href="index.html"><div class="sezione">Home</div></a>
+                <a href="competenze.html"><div class="sezione">Competenze</div></a>
+                <a href="portfolio.html"><div class="sezione">Portfolio</div></a>
+                <i class="fa fa-bars" id="iconmenu" onclick="menumobile()"></i>
+              </div>
+            </div>
+            <div id="mobilemenu">
+              <div id="sezionimobile">
+                <a href="index.html"><div class="sezionemobile">Home</div></a>
+                <a href="competenze.html"><div class="sezionemobile">Competenze</div></a>
+                <a href="portfolio.html"><div class="sezionemobile">Portfolio</div></a>
+              </div>
+            </div>
+
+            
+         </div>
         </div>
       </header>
+
+      
 
       <!--CONTENUTO-->
       <div class="contenuto">
@@ -82,9 +86,6 @@
           2021 &copy <a href="#">Giuseppe Lucenti</a>
         </div>
       </footer>
-
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
   </html>
         
