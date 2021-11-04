@@ -80,7 +80,7 @@ body{
 }
 
 .sezione:hover {
-	background-color: #7EA090;
+	background-color: #7B0828;
 	color: white;
 }
 
@@ -185,11 +185,11 @@ body{
 }
 
 #competenze {
-	color: #7EA090;
+	color: #7B0828;
 }
 
 #chisono {
-	color: #7EA090;
+	color: #7B0828;
 }
 
 .icons{
@@ -198,21 +198,23 @@ body{
 }
 
 #instagram {
-	color: white;
+	color: black;
 }
 
 #instagram:hover {
-	background-color: #7EA090;
-	border-radius: 16px;
-}
-
-#envelope {
+	background-color: #7B0828;
+	border-radius: 3px;
 	color: white;
 }
 
+#envelope {
+	color: black;
+}
+
 #envelope:hover {
-	background-color: #7EA090;
-	border-radius: 16px;
+	background-color: #7B0828;
+	border-radius: 3px;
+	color: white;
 }
 
 footer {
@@ -228,6 +230,17 @@ footer .copyright {
 	font: 12px;
 	color: gray;
 	background-color: #8DAA9D;
+}
+
+#icon{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.icona-software{
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 #illustrator {
@@ -255,6 +268,21 @@ footer .copyright {
 
 #indesign {
 	color: #ed458a;
+	font-size: 100px;
+}
+
+#obs-studio{
+	font-size: 100px;
+	border-radius: 15px;
+	background-color: #191c1a;
+	color: gray;
+}
+
+#html{
+	font-size: 100px;
+}
+
+#css{
 	font-size: 100px;
 }
 
