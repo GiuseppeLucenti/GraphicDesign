@@ -115,7 +115,7 @@ body{
 }
 
 .sezionemobile:hover{
-	background-color: #7EA090;
+	background-color: #7B0828;
 	color: white;
 }
 
@@ -233,7 +233,6 @@ footer .copyright {
 }
 
 #icon{
-	display: flex;
 	text-align: center;
 	justify-content: center;
 }
@@ -259,11 +258,8 @@ footer .copyright {
 }
 
 #aftereffects {
-	color: white;
-	background-color: #c7a6d1;
+	color: #c7a6d1;
 	font-size: 100px;
-	border-radius: 15px;
-	border: 10px solid #c7a6d1;
 }
 
 #indesign {
@@ -273,8 +269,6 @@ footer .copyright {
 
 #obs-studio{
 	font-size: 100px;
-	border-radius: 15px;
-	background-color: #191c1a;
 	color: gray;
 }
 
@@ -315,5 +309,8 @@ footer .copyright {
 	.img-portfolio1{
 		float: none;
 		width: 100%;
+	}
+	#icon{
+		display: wrap;
 	}
 }
